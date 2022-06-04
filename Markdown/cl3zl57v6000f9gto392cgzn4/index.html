@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="所有Markdown元素的概述&lt;div class&#x3D;&quot;meta&quot;&gt;   &lt;font _mstmutation&#x3D;&quot;1&quot; _msthash&#x3D;&quot;1051700&quot; _msttexthash&#x3D;&quot;10753938&quot;&gt;&lt;span class&#x3D;&quot;author&quot; itemprop&#x3D;&amp;q">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown概述">
+<meta property="og:url" content="http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/index.html">
+<meta property="og:site_name" content="VANTASY">
+<meta property="og:description" content="所有Markdown元素的概述&lt;div class&#x3D;&quot;meta&quot;&gt;   &lt;font _mstmutation&#x3D;&quot;1&quot; _msthash&#x3D;&quot;1051700&quot; _msttexthash&#x3D;&quot;10753938&quot;&gt;&lt;span class&#x3D;&quot;author&quot; itemprop&#x3D;&amp;q">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/.com//Users/Administrator/Desktop/hexo/source_posts/208px-Markdown-mark.svg.png">
+<meta property="og:image" content="http://example.com/.com//wallpaper-878514.jpg">
+<meta property="og:image" content="http://example.com/.com//cactus.png">
+<meta property="og:image" content="http://example.com/.com//208px-Markdown-mark.svg.png">
+<meta property="article:published_time" content="2022-03-12T05:38:45.000Z">
+<meta property="article:modified_time" content="2022-03-12T06:25:37.651Z">
+<meta property="article:author" content="YF.Chen">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/.com//Users/Administrator/Desktop/hexo/source_posts/208px-Markdown-mark.svg.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Markdown概述</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/projects_url">项目</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="上一篇" href="/Markdown/cl3zl57f700039gto9mpvfwa6/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/uncategorized/cl3zl57f900059gto9diafgzt/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="返回顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&text=Markdown概述"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&is_video=false&description=Markdown概述"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Markdown概述&body=Check out this article: http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&name=Markdown概述&description=&lt;p&gt;&lt;img src=&#34;/.com//Users\Administrator\Desktop\hexo\source_posts\208px-Markdown-mark.svg.png&#34; alt=&#34;208px-Markdown-mark.svg&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;所有Markdown元素的概述&#34;&gt;&lt;a href=&#34;#所有Markdown元素的概述&#34; class=&#34;headerlink&#34; title=&#34;所有Markdown元素的概述&#34;&gt;&lt;/a&gt;所有Markdown元素的概述&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;meta&amp;quot;&amp;gt;
+  &amp;lt;font _mstmutation=&amp;quot;1&amp;quot; _msthash=&amp;quot;1051700&amp;quot; _msttexthash=&amp;quot;10753938&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;author&amp;quot; itemprop=&amp;quot;author&amp;quot; itemscope=&amp;quot;&amp;quot; itemtype=&amp;quot;http://schema.org/Person&amp;quot; _mstmutation=&amp;quot;1&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt; &amp;lt;span itemprop=&amp;quot;name&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt;仙人掌灯&amp;lt;/span&amp;gt; &amp;lt;/span&amp;gt; &amp;lt;div class=&amp;quot;postdate&amp;quot; _mstmutation=&amp;quot;1&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt; &amp;lt;time datetime=&amp;quot;2016-11-01T08:35:18.000Z&amp;quot; itemprop=&amp;quot;datePublished&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt;2016-11-01&amp;lt;/time&amp;gt; &amp;lt;/div&amp;gt;&amp;lt;/font&amp;gt;
+
+&amp;lt;div class=&amp;quot;article-tag&amp;quot;&amp;gt;
+
+    [降价](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/tags/markdown/)
+&amp;lt;/div&amp;gt;
+
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  
+
+  &lt;div class=&#34;content&#34; itemprop=&#34;articleBody&#34;&gt;
+
+&lt;p&gt;&lt;font _mstmutation=&#34;1&#34; _msthash=&#34;809146&#34; _msttexthash=&#34;180487411&#34;&gt;这篇文章概述了所有Markdown元素以及这个主题如何呈现它们。&lt;/font&gt;&lt;br&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Block-Elements&#34;&gt;块元素&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*   [段落和换行符](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs-and-Line-Breaks)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Headers&#34;&gt;header标签&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquotes&#34;&gt;块引用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Lists&#34;&gt;列表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Blocks&#34;&gt;代码块&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Horizontal-Rules&#34;&gt;水平规则&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Table&#34;&gt;表格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Span-Elements&#34;&gt;跨度元素&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*   [链接](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Links)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Emphasis&#34;&gt;强调&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code&#34;&gt;代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Images&#34;&gt;图像&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Strikethrough&#34;&gt;删除线&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Miscellaneous&#34;&gt;杂项&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*   [自动链接](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Automatic-Links)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Backslash-Escapes&#34;&gt;反斜杠转义&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-Html&#34;&gt;内联 HTML&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&t=Markdown概述"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%89%80%E6%9C%89Markdown%E5%85%83%E7%B4%A0%E7%9A%84%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">所有Markdown元素的概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9D%97%E5%85%83%E7%B4%A0"><span class="toc-number">1.1.</span> <span class="toc-text">块元素</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD%E5%92%8C%E6%8D%A2%E8%A1%8C%E7%AC%A6"><span class="toc-number">1.1.1.</span> <span class="toc-text">段落和换行符</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">段落</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Ordered"><span class="toc-number">1.1.1.2.</span> <span class="toc-text">Ordered</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Indented"><span class="toc-number">1.1.1.3.</span> <span class="toc-text">Indented</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Blockquote"><span class="toc-number">1.1.1.3.1.</span> <span class="toc-text">Blockquote</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Nested-List"><span class="toc-number">1.1.1.3.2.</span> <span class="toc-text">Nested List</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code-Blocks"><span class="toc-number">1.1.2.</span> <span class="toc-text">Code Blocks</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Horizontal-Rules"><span class="toc-number">1.1.3.</span> <span class="toc-text">Horizontal Rules</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Table"><span class="toc-number">1.1.4.</span> <span class="toc-text">Table</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Emphasis"><span class="toc-number">1.1.5.</span> <span class="toc-text">Emphasis</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code"><span class="toc-number">1.1.6.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Images"><span class="toc-number">1.1.7.</span> <span class="toc-text">Images</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Inline"><span class="toc-number">1.1.7.1.</span> <span class="toc-text">Inline</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">1.1.7.2.</span> <span class="toc-text">参考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E7%BA%BF"><span class="toc-number">1.1.8.</span> <span class="toc-text">删除线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%82%E9%A1%B9"><span class="toc-number">1.2.</span> <span class="toc-text">杂项</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5"><span class="toc-number">1.2.1.</span> <span class="toc-text">自动链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Backslash-Escapes"><span class="toc-number">1.2.2.</span> <span class="toc-text">Backslash Escapes</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inline-HTML"><span class="toc-number">1.3.</span> <span class="toc-text">Inline HTML</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Markdown概述
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">YF.Chen</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-03-12T05:38:45.000Z" itemprop="datePublished">2022-03-12</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/Markdown/">Markdown</a>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><img src="/.com//Users\Administrator\Desktop\hexo\source_posts\208px-Markdown-mark.svg.png" alt="208px-Markdown-mark.svg"></p>
+<h1 id="所有Markdown元素的概述"><a href="#所有Markdown元素的概述" class="headerlink" title="所有Markdown元素的概述"></a>所有Markdown元素的概述</h1><pre><code>&lt;div class=&quot;meta&quot;&gt;
+  &lt;font _mstmutation=&quot;1&quot; _msthash=&quot;1051700&quot; _msttexthash=&quot;10753938&quot;&gt;&lt;span class=&quot;author&quot; itemprop=&quot;author&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Person&quot; _mstmutation=&quot;1&quot; _istranslated=&quot;1&quot;&gt; &lt;span itemprop=&quot;name&quot; _istranslated=&quot;1&quot;&gt;仙人掌灯&lt;/span&gt; &lt;/span&gt; &lt;div class=&quot;postdate&quot; _mstmutation=&quot;1&quot; _istranslated=&quot;1&quot;&gt; &lt;time datetime=&quot;2016-11-01T08:35:18.000Z&quot; itemprop=&quot;datePublished&quot; _istranslated=&quot;1&quot;&gt;2016-11-01&lt;/time&gt; &lt;/div&gt;&lt;/font&gt;
+
+&lt;div class=&quot;article-tag&quot;&gt;
+
+    [降价](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/tags/markdown/)
+&lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+  
+
+  <div class="content" itemprop="articleBody">
+
+<p><font _mstmutation="1" _msthash="809146" _msttexthash="180487411">这篇文章概述了所有Markdown元素以及这个主题如何呈现它们。</font><br><a id="more"></a></p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Block-Elements">块元素</a></p>
+<pre><code>*   [段落和换行符](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs-and-Line-Breaks)
+</code></pre>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Headers">header标签</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquotes">块引用</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Lists">列表</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Blocks">代码块</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Horizontal-Rules">水平规则</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Table">表格</a></li>
+</ul>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Span-Elements">跨度元素</a></p>
+<pre><code>*   [链接](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Links)
+</code></pre>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Emphasis">强调</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code">代码</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Images">图像</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Strikethrough">删除线</a></li>
+</ul>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Miscellaneous">杂项</a></p>
+<pre><code>*   [自动链接](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Automatic-Links)
+</code></pre>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Backslash-Escapes">反斜杠转义</a></li>
+</ul>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-Html">内联 HTML</a></p>
+<span id="more"></span></li>
+</ul>
+<h2 id="块元素"><a href="#块元素" class="headerlink" title="块元素"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Block-Elements" title="Block Elements"></a><font _mstmutation="1" _msthash="245713" _msttexthash="7945925">块元素</font></h2><h3 id="段落和换行符"><a href="#段落和换行符" class="headerlink" title="段落和换行符"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs-and-Line-Breaks" title="Paragraphs and Line Breaks"></a><font _mstmutation="1" _msthash="621920" _msttexthash="21777275">段落和换行符</font></h3><h4 id="段落"><a href="#段落" class="headerlink" title="段落"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs" title="Paragraphs"></a><font _mstmutation="1" _msthash="156806" _msttexthash="6029855">段落</font></h4><p><font _mstmutation="1" _msthash="809497" _msttexthash="13352079">标签：</font><code>&amp;lt;p&amp;gt;</code></p>
+<p>一个或多个空行。（空行是只包含<strong>空格</strong>或<strong>制表符的</strong>行，被视为空白。</p>
+<p>：</p>
+<pre><code>This will be
+inline.
+
+This is second paragraph.
+`&lt;/pre&gt;
+
+预览：
+
+* * *
+
+这将是
+在线的。
+
+这是第二段。
+
+* * *
+
+#### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Line-Breaks &quot;Line Breaks&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;164801&quot; _msttexthash=&quot;9632532&quot;&gt;换行符&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;849355&quot; _msttexthash=&quot;13352079&quot;&gt;标签：&lt;/font&gt;`&amp;lt;br /&amp;gt;`
+
+用**两个或多个空格**结束一行。
+
+：
+
+&lt;pre&gt;`This will be not
+inline.
+`&lt;/pre&gt;
+
+预览：
+
+* * *
+
+这将是非
+内联的。
+
+* * *
+
+### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Headers &quot;Headers&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;93067&quot; _msttexthash=&quot;2078076&quot;&gt;头&lt;/font&gt;
+
+Markdown支持两种样式的标题，Setext和atx。
+
+#### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Setext &quot;Setext&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;80015&quot; _msttexthash=&quot;13550992&quot;&gt;速记文本&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;849472&quot; _msttexthash=&quot;21840039&quot;&gt;标签： ，&lt;/font&gt;`&amp;lt;h1&amp;gt;``&amp;lt;h2&amp;gt;`
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;849602&quot; _msttexthash=&quot;205851932&quot;&gt;&quot;下划线&quot;使用**等号（=）**as和**短划线（-），**如任何数字。&lt;/font&gt;`&amp;lt;h1&amp;gt;``&amp;lt;h2&amp;gt;`
+</code></pre>
+<p>​<br>​<br>​    <pre><code>This is an H1 ​    ============= ​    This is an H2 ​    ------------- ​    </code></pre><br>​<br>​    #### <a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#atx" title="atx"></a><font _mstmutation="1" _msthash="34931" _msttexthash="6992037">阿茨</font><br>​<br>​    <font _mstmutation="1" _msthash="849862" _msttexthash="87714588">HTML 标签： ， ， ， ， ，</font><code>&amp;lt;h1&amp;gt;``&amp;lt;h2&amp;gt;``&amp;lt;h3&amp;gt;``&amp;lt;h4&amp;gt;``&amp;lt;h5&amp;gt;``&amp;lt;h6&amp;gt;</code><br>​<br>​    <font _mstmutation="1" _msthash="849992" _msttexthash="125895523">在行首使用 1-6 <strong>个哈希字符 （#<strong>），对应于 - 。</strong></strong></font><code>&amp;lt;h1&amp;gt;``&amp;lt;h6&amp;gt;</code><br>​<br>​    ：<br>​    <pre><code># This is an H1 ​    ## This is an H2 ​    ###### This is an H6 ​    </code></pre><br>​<br>​    （可选）您可以”关闭”atx 样式的标头。结束哈希不需要与用于打开标头的哈希数匹配。<br>​<br>    ：<br>    <pre><code># This is an H1 #     ## This is an H2 ##     ### This is an H3 ######     </code></pre></p>
+<pre><code>### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquotes &quot;Blockquotes&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;185042&quot; _msttexthash=&quot;8075197&quot;&gt;块引用&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;849329&quot; _msttexthash=&quot;13352079&quot;&gt;标签：&lt;/font&gt;`&amp;lt;blockquote&amp;gt;`
+
+Markdown使用电子邮件样式**的&amp;gt;**字符进行块引用。最好是硬换行文本并在每行前放置一个&amp;gt;。
+
+：
+
+re&gt;`&amp;gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+&amp;gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&amp;gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&amp;gt;
+&amp;gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&amp;gt; id sem consectetuer libero luctus adipiscing.
+`&lt;/pre&gt;
+
+预览：
+
+* * *
+
+&gt; 这是一个包含两段的块引用。Lorem ipsum dolor sit amet， consectetuer adipiscing elit.Aliquam hendrerit mi posuere lectus.Vestibulum enim wisi， viverra nec， fringilla in， laoreet vitae， risus.
+&gt; Donec sit amet nisl.Aliquam semper ipsum sit amet velit.Suspendisse id sem consectetuer libero luctus adipiscing.
+
+* * *
+
+Markdown允许您懒惰，并且只将&amp;gt;放在硬包装段落的第一行之前。
+
+：
+
+&lt;p&gt;`&amp;gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+&amp;gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+`&lt;/pre&gt;
+
+预览：
+
+* * *
+
+&gt; 这是一个包含两段的块引用。Lorem ipsum dolor sit amet， consectetuer adipiscing elit.Aliquam hendrerit mi posuere lectus.Vestibulum enim wisi， viverra nec， fringilla in， laoreet vitae， risus.
+&gt; Donec sit amet nisl.Aliquam semper ipsum sit amet velit.Suspendisse id sem consectetuer libero luctus adipiscing.
+
+* * *
+
+块引用可以通过添加其他级别的&amp;gt;来嵌套（即块引用中的块引用）。
+
+：
+
+&lt;pre&amp;gt; This is the first level of quoting.
+&amp;gt;
+&amp;gt; &amp;gt; This is nested blockquote.
+&amp;gt;
+&amp;gt; Back to the first level.
+`&lt;/pre&gt;
+
+预览：
+
+* * *
+
+&gt; 这是引用的第一级。
+&gt; &gt; 这是嵌套块引用。
+&gt; 回到第一级。
+
+* * *
+
+块引用可以包含其他 Markdown 元素，包括标头、列表和代码块。
+
+：
+
+&lt;pre&gt;`t; ## This is a header.
+&amp;gt;
+&amp;gt; 1.   This is the first list item.
+&amp;gt; 2.   This is the second list item.
+&amp;gt;
+&amp;gt; Here&#39;s some example code:
+&amp;gt;
+&amp;gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);
+`&lt;/pre&gt;
+
+### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Lists &quot;Lists&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;62816&quot; _msttexthash=&quot;5544045&quot;&gt;列表&lt;/font&gt;
+
+Markdown 支持有序（编号）和无序（项目符号）列表。
+
+#### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Unordered &quot;Unordered&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;134186&quot; _msttexthash=&quot;4890808&quot;&gt;无序&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;849940&quot; _msttexthash=&quot;13352079&quot;&gt;标签：&lt;/font&gt;`&amp;lt;ul&amp;gt;`
+
+无序列表使用**星号 （*）、****加号 （+）** 和**连字符 （-）**。
+
+：
+
+&lt;pre&gt;`*   Red
+*   Green
+*   Blue
+`&lt;/pre&gt;
+
+预览：
+
+* * *
+</code></pre>
+<ul>
+<li><p>红</p>
+</li>
+<li><p>绿</p>
+</li>
+<li><p>蓝</p>
+<hr>
+<p>等效于：</p>
+<p>：</p>
+<pre>`+   Red
++   Green
++   Blue
+`</pre>
+
+<p>和：</p>
+<p>：</p>
+<pre>`-   Red
+-   Green
+-   Blue
+`</pre>
+
+<h4 id="Ordered"><a href="#Ordered" class="headerlink" title="Ordered"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Ordered" title="Ordered"></a><font _mstmutation="1" _msthash="92833" _msttexthash="92833">Ordered</font></h4><p><font _mstmutation="1" _msthash="850447" _msttexthash="89284">HTML Tag: </font><code>&amp;lt;ol&amp;gt;</code></p>
+<p>Ordered lists use numbers followed by periods:</p>
+<p>Code:</p>
+<pre>`1.  Bird
+2.  McHale
+3.  Parish
+`</pre>
+
+<p>Preview:</p>
+<hr>
+</li>
+</ul>
+<ol>
+<li><p>Bird</p>
+</li>
+<li><p>McHale</p>
+</li>
+<li><p>Parish</p>
+<hr>
+<p>It’s possible to trigger an ordered list by accident, by writing something like this:</p>
+<p>Code:</p>
+<pre>`1986. What a great season.
+`</pre>
+
+<p>Preview:</p>
+<hr>
+</li>
+<li><p>What a great season.</p>
+<hr>
+<p>You can <strong>backslash-escape ()</strong> the period:</p>
+<p>Code:</p>
+<pre>`1986\. What a great season.
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<ol start="1986">
+<li>What a great season.</li>
+</ol>
+<hr>
+<h4 id="Indented"><a href="#Indented" class="headerlink" title="Indented"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Indented" title="Indented"></a><font _mstmutation="1" _msthash="112008" _msttexthash="112008">Indented</font></h4><h5 id="Blockquote"><a href="#Blockquote" class="headerlink" title="Blockquote"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquote" title="Blockquote"></a><font _mstmutation="1" _msthash="159627" _msttexthash="159627">Blockquote</font></h5><p>To put a blockquote within a list item, the blockquote’s &gt; delimiters need to be indented:</p>
+<p>Code:</p>
+<pre>`*   A list item with a blockquote:
+
+    &gt; This is a blockquote
+    &gt; inside a list item.
+`</pre>
+
+<p>Preview:</p>
+<hr>
+</li>
+</ol>
+<ul>
+<li><p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<pre><code>inside a list item.
+</code></pre>
+</blockquote>
+<pre><code>* * *
+
+##### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Block &quot;Code Block&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;139217&quot; _msttexthash=&quot;126399&quot;&gt;Code Block&lt;/font&gt;
+
+To put a code block within a list item, the code block needs to be indented twice — **8 spaces** or **two tabs**:
+
+Code:
+
+&lt;pre&gt;`*   A list item with a code block:
+
+        &amp;lt;code goes here&amp;gt;
+`&lt;/pre&gt;
+
+Preview:
+
+* * *
+</code></pre>
+<ul>
+<li>A list item with a code block:<pre>`&lt;code goes here&gt;
+`</pre></li>
+</ul>
+<hr>
+<h5 id="Nested-List"><a href="#Nested-List" class="headerlink" title="Nested List"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Nested-List" title="Nested List"></a><font _mstmutation="1" _msthash="167648" _msttexthash="154687">Nested List</font></h5><p>Code:</p>
+<pre>`* A
+      * A1
+      * A2
+    * B
+    * C
+    `</pre>
+
+<p>Preview:</p>
+<hr>
+<ul>
+<li><p><font _mstmutation="1" _msthash="1177800" _msttexthash="5915">A</font></p>
+<pre><code>*   A1
+</code></pre>
+<ul>
+<li>A2</li>
+</ul>
+</li>
+<li><p>B</p>
+</li>
+<li><p>C</p>
+<hr>
+<h3 id="Code-Blocks"><a href="#Code-Blocks" class="headerlink" title="Code Blocks"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Blocks" title="Code Blocks"></a><font _mstmutation="1" _msthash="164632" _msttexthash="150319">Code Blocks</font></h3><p><font _mstmutation="1" _msthash="890123" _msttexthash="89284">HTML Tag: </font><code>&amp;lt;pre&amp;gt;</code></p>
+<p>Indent every line of the block by at least <strong>4 spaces</strong> or <strong>1 tab</strong>.</p>
+<p>Code:</p>
+<pre>`This is a normal paragraph:
+
+    This is a code block.
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p>This is a normal paragraph:</p>
+<pre>`This is a code block.
+`</pre></li>
+</ul>
+<hr>
+<p>A code block continues until it reaches a line that is not indented (or the end of the article).</p>
+<p>Within a code block, <strong><em>ampersands (&amp;)</em></strong> and angle <strong>brackets (&lt; and &gt;)</strong> are automatically converted into HTML entities.</p>
+<p>Code:</p>
+<pre>`&lt;div class="footer"&gt;
+        &amp;copy; 2004 Foo Corporation
+    &lt;/div&gt;
+    `</pre>
+
+<p>Preview:</p>
+<hr>
+<pre>`&lt;div class="footer"&gt;
+        &amp;copy; 2004 Foo Corporation
+    &lt;/div&gt;
+    `</pre>
+<pre><code>* * *
+
+Following sections Fenced Code Blocks and Syntax Highlighting are extensions, you can use the other way to write the code block.
+
+#### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Fenced-Code-Blocks &quot;Fenced Code Blocks&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;338624&quot; _msttexthash=&quot;299806&quot;&gt;Fenced Code Blocks&lt;/font&gt;
+
+Just wrap your code in 
+</code></pre>
+<figure class="highlight plain"><figcaption><span _msthash="1920451" _msttexthash="2868073">``` ```` (as shown below) and you won't need to indent it by four spaces.</span></figcaption><span class="btn-copy tooltipped tooltipped-sw" aria-label="Copy to clipboard!" _mstaria-label="298506"></span><table><tbody><tr><td class="gutter"><pre><span class="line">1</span>
+    <span class="line">2</span>
+    <span class="line">3</span>
+    <span class="line">4</span>
+    </pre></td><td class="code"><pre><span class="line"></span>
+    <span class="line">Code:</span>
+    <span class="line"></span>
+    <span class="line">    Here's an example:</span>
+    </pre></td></tr></tbody></table></figure>
+    <pre>`function test() {
+      console.log("notice the blank line before this function?");
+    }
+    <figure class="highlight plain"><span class="btn-copy tooltipped tooltipped-sw" aria-label="Copy to clipboard!" _mstaria-label="298506"></span><table><tbody><tr><td class="gutter"><pre><span class="line">1</span>
+    <span class="line">2</span>
+    <span class="line">3</span>
+    </pre></td><td class="code"><pre><span class="line">Preview:</span>
+    <span class="line">***</span>
+    <span class="line">Here's an example:</span>
+    </pre></td></tr></tbody></table></figure>
+    `</pre>
+    
+<pre><code>&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;890240&quot; _msttexthash=&quot;14788800&quot;&gt;function test() &#123;
+</code></pre>
+<p>  console.log(“notice the blank line before this function?”);<br>    }</p>
+<pre><code>&lt;figure class=&quot;highlight plain&quot;&gt;&lt;span class=&quot;btn-copy tooltipped tooltipped-sw&quot; aria-label=&quot;Copy to clipboard!&quot; _mstaria-label=&quot;298506&quot;&gt;&lt;/span&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;
+</code></pre>
+<p><span class="line">2</span><br>    <span class="line">3</span><br>    <span class="line">4</span><br>    <span class="line">5</span><br>    <span class="line">6</span><br>    <span class="line">7</span><br>    <span class="line">8</span><br>    <span class="line">9</span><br>    <span class="line">10</span><br>    <td class="code"><pre><span class="line">***</span><br>    <span class="line">#### Syntax Highlighting</span><br>    <span class="line">In your fenced block, add an optional language identifier and we'll run it through syntax highlighting (<a target="_blank" rel="noopener" href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml">Support Languages</a>).</span><br>    <span class="line"></span><br>    <span class="line">Code:</span><br>    <span class="line"></span><br>    <span class="line">    ```ruby</span><br>    <span class="line">    require 'redcarpet'</span><br>    <span class="line">    markdown = Redcarpet.new("Hello World!")</span><br>    <span class="line">    puts markdown.to_html</span><br>    </pre></td></p>
+<pre><code>Preview:
+
+* * *
+
+&lt;figure class=&quot;highlight ruby&quot;&gt;&lt;span class=&quot;btn-copy tooltipped tooltipped-sw&quot; aria-label=&quot;Copy to clipboard!&quot; _mstaria-label=&quot;298506&quot;&gt;&lt;/span&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;
+</code></pre>
+<p><span class="line">2</span><br>    <span class="line">3</span><br>    <td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br>    <span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br>    <span class="line">puts markdown.to_html</span><br>    </pre></td></p>
+<hr>
+<h3 id="Horizontal-Rules"><a href="#Horizontal-Rules" class="headerlink" title="Horizontal Rules"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Horizontal-Rules" title="Horizontal Rules"></a><font _mstmutation="1" _msthash="307502" _msttexthash="290758">Horizontal Rules</font></h3><p><font _mstmutation="1" _msthash="889941" _msttexthash="12240826">HTML Tag:<br>    Places <strong>three or more hyphens (-), asterisks (*), or underscores (_)</strong> on a line by themselves. You may use spaces between the hyphens or asterisks.</font><code>&amp;lt;hr /&amp;gt;</code></p>
+<pre><code>Code:
+</code></pre>
+<pre>`* * *
+    ***
+*****
+    - - -
+    ---------------------------------------
+    ___
+    `</pre>
+
+<pre><code>Preview:
+</code></pre>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Table" title="Table"></a><font _mstmutation="1" _msthash="57681" _msttexthash="57681">Table</font></h3><p><font _mstmutation="1" _msthash="891072" _msttexthash="89284">HTML Tag: </font><code>&amp;lt;table&amp;gt;</code></p>
+<p>It’s an extension.</p>
+<p>按<strong>竖线 （|）</strong> 分隔列，用<strong>短划线 （-）</strong> 分隔标题，并使用**冒号 （:)**进行对齐。</p>
+<p>外<strong>管（|）</strong>和路线是可选的。每个单元格至少有 <strong>3 个分隔符</strong>用于分隔标头。</p>
+<p><font _mstmutation="1" _msthash="890344" _msttexthash="12345177">code：</font></p>
+<figure class="highlight plain"><span class="btn-copy tooltipped tooltipped-sw" aria-label="复制到剪贴板！" _mstaria-label="29802604"></span><table><tbody><tr><td class="gutter"><pre><span class="line">1</span>
+    <span class="line">2</span>
+<span class="line">3</span>
+    <span class="line">4</span>
+    <span class="line">5</span>
+    <span class="line">6</span>
+    <span class="line">7</span>
+    <span class="line">8</span>
+    <span class="line">9</span>
+    <span class="line">10</span>
+    <span class="line">11</span>
+    <span class="line">12</span>
+    </pre></td><td class="code"><pre><span class="line">| Left | Center | Right |</span>
+    <span class="line">|:-----|:------:|------:|</span>
+    <span class="line">|aaa   |bbb     |ccc    |</span>
+    <span class="line">|ddd   |eee     |fff    |</span>
+    <span class="line"></span>
+    <span class="line"> A | B</span>
+    <span class="line">---|---</span>
+    <span class="line">123|456</span>
+    <span class="line"></span>
+    <span class="line">A |B</span>
+    <span class="line">--|--</span>
+    <span class="line">12|45</span>
+    </pre></td></tr></tbody></table></figure>
+
+<pre><code>预览：
+</code></pre>
+<hr>
+<table>
+    <thead>
+<tr>
+    <th style="text-align:left" _msthash="2162992" _msttexthash="2187458">左</th>
+    <th style="text-align:center" _msthash="2163122" _msttexthash="4370743">中心</th>
+    <th style="text-align:right" _msthash="2163252" _msttexthash="1955681">右</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td style="text-align:left" _msthash="2170454" _msttexthash="7500285">阿阿</td>
+    <td style="text-align:center" _msthash="2170584" _msttexthash="8335951">断续器</td>
+    <td style="text-align:right" _msthash="2170714" _msttexthash="8335951">断续器</td>
+    </tr>
+    <tr>
+    <td style="text-align:left" _msthash="2170649" _msttexthash="5538780">滴滴</td>
+    <td style="text-align:center" _msthash="2170779" _msttexthash="4218682">哎呀</td>
+    <td style="text-align:right" _msthash="2170909" _msttexthash="8335951">断续器</td>
+    </tr>
+    </tbody>
+    </table>
+    <table>
+    <thead>
+    <tr>
+    <th _msthash="2163421" _msttexthash="3898128">一个</th>
+    <th _msthash="2163551" _msttexthash="6006">B</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td _msthash="2170883" _msttexthash="15626">123</td>
+    <td _msthash="2171013" _msttexthash="16562">456</td>
+    </tr>
+    </tbody>
+    </table>
+    <table>
+    <thead>
+    <tr>
+    <th _msthash="2163850" _msttexthash="3898128">一个</th>
+    <th _msthash="2163980" _msttexthash="6006">B</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td _msthash="2171312" _msttexthash="9659">12</td>
+    <td _msthash="2171442" _msttexthash="10244">45</td>
+    </tr>
+    </tbody>
+    </table>
+    * * *
+    
+<pre><code>## [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Span-Elements &quot;Span Elements&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;220805&quot; _msttexthash=&quot;12423879&quot;&gt;跨度元素&lt;/font&gt;
+
+### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Links &quot;Links&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;61061&quot; _msttexthash=&quot;6123858&quot;&gt;链接&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;890331&quot; _msttexthash=&quot;13352079&quot;&gt;标签：&lt;/font&gt;`&amp;lt;a&amp;gt;`
+
+Markdown支持两种样式的链接：内联和引用。
+
+#### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline &quot;Inline&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;75855&quot; _msttexthash=&quot;4383015&quot;&gt;内嵌&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;890617&quot; _msttexthash=&quot;40949857&quot;&gt;内联链接格式如下：&lt;/font&gt;`[Link Text](URL &quot;Title&quot;)`
+
+标题是可选的。
+
+：
+
+&lt;pre&gt;`This is [an example](http://example.com/ &quot;Title&quot;) inline link.
+
+[This link](http://example.net/) has no title attribute.
+</code></pre>
+<p>&#96;</p>
+<p>预览：</p>
+<pre><code>* * *
+
+这是[一个示例](http://example.com/ &quot;Title&quot;)内联链接。
+
+[此链接](http://example.net/)没有标题属性。
+
+* * *
+
+如果引用的是同一服务器上的本地资源，则可以使用相对路径：
+
+：
+
+&lt;pre&gt;`See my [About](/cactus-dark/about/) page for details.
+</code></pre>
+<p>&#96;</p>
+<p>预览：</p>
+<pre><code>* * *
+
+有关详细信息，请参阅我的&quot;[关于](https://probberechts.github.io/cactus-dark/about/)&quot;页面。
+
+* * *
+
+#### [](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Reference &quot;Reference&quot;)&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;131391&quot; _msttexthash=&quot;5359406&quot;&gt;参考&lt;/font&gt;
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;889408&quot; _msttexthash=&quot;85538648&quot;&gt;您可以预定义链接引用。格式如下：&lt;/font&gt;`[id]: URL &quot;Title&quot;`
+
+&lt;font _mstmutation=&quot;1&quot; _msthash=&quot;889551&quot; _msttexthash=&quot;147181099&quot;&gt;标题也是可选的。而你引用的链接，格式如下：&lt;/font&gt;`[Link Text][id]`
+
+：
+
+&lt;pre&gt;`[id]: http://example.com/  &quot;Optional Title Here&quot;
+</code></pre>
+<p>This is [an example][id] reference-style link.<br>    &#96;</p>
+<pre><code>预览：
+
+* * *
+
+This is [an example](http://example.com/ &quot;Optional Title Here&quot;) reference-style link.
+
+* * *
+
+That is:
+</code></pre>
+<ul>
+<li><p>Square brackets containing the link identifier (<strong>not case sensitive</strong>, optionally indented from the left margin using up to three spaces);</p>
+</li>
+<li><p>followed by a colon;</p>
+</li>
+<li><p>followed by one or more spaces (or tabs);</p>
+</li>
+<li><p>followed by the URL for the link;</p>
+</li>
+<li><p>The link URL may, optionally, be surrounded by angle brackets.</p>
+</li>
+<li><p>optionally followed by a title attribute for the link, enclosed in double or single quotes, or enclosed in parentheses.</p>
+<p>The following three link definitions are equivalent:</p>
+<p>Code:</p>
+<pre>`[foo]: http://example.com/  "Optional Title Here"
+[foo]: http://example.com/  'Optional Title Here'
+[foo]: http://example.com/  (Optional Title Here)
+[foo]: &lt;http://example.com/&gt;  "Optional Title Here"
+`</pre>
+
+<p>Uses an empty set of square brackets, the link text itself is used as the name.</p>
+<p>Code:</p>
+<pre>`[Google]: http://google.com/
+[Google][]
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><a target="_blank" rel="noopener" href="http://google.com/">Google</a></p>
+<hr>
+<h3 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Emphasis" title="Emphasis"></a><font _mstmutation="1" _msthash="114725" _msttexthash="114725">Emphasis</font></h3><p><font _mstmutation="1" _msthash="889811" _msttexthash="120120">HTML Tags: , </font><code>&amp;lt;em&amp;gt;``&amp;lt;strong&amp;gt;</code></p>
+<p><font _mstmutation="1" _msthash="889955" _msttexthash="8770125">Markdown treats <strong>asterisks (*)</strong> and <strong>underscores (_)</strong> as indicators of emphasis. <strong>One delimiter</strong> will be  ; *<em>double delimiters</em> will be .</font><code>&amp;lt;em&amp;gt;``&amp;lt;strong&amp;gt;</code></p>
+<p>Code:</p>
+<pre>`*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<hr>
+<p>But if you surround an * or _ with spaces, it’ll be treated as a literal asterisk or underscore.</p>
+<p>You can backslash escape it:</p>
+<p>Code:</p>
+<pre>`\*this text is surrounded by literal asterisks\*
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><em>this text is surrounded by literal asterisks</em></p>
+<hr>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code" title="Code"></a><font _mstmutation="1" _msthash="42471" _msttexthash="42471">Code</font></h3><p><font _mstmutation="1" _msthash="890214" _msttexthash="89284">HTML Tag: </font><code>&amp;lt;code&amp;gt;</code></p>
+<p>Wraps it with <strong>backtick quotes (&#96;)</strong>.</p>
+<p>Code:</p>
+<pre>`Use the `printf()` function.
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><font _mstmutation="1" _msthash="891073" _msttexthash="276575">Use the  function.</font><code>printf()</code></p>
+<hr>
+<p>To include a literal backtick character within a code span, you can use <strong>multiple backticks</strong> as the opening and closing delimiters:</p>
+<p>Code:</p>
+<pre>```There is a literal backtick (`) here.``
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><code>There is a literal backtick (</code>) here.&#96;</p>
+<hr>
+<p>The backtick delimiters surrounding a code span may include spaces — one after the opening, one before the closing. This allows you to place literal backtick characters at the beginning or end of a code span:</p>
+<p>Code:</p>
+<pre>`A single backtick in a code span: `` ` ``
+
+A backtick-delimited string in a code span: `` `foo` ``
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><font _mstmutation="1" _msthash="890761" _msttexthash="713635">A single backtick in a code span: </font>&#96;&#96;&#96;</p>
+<p><font _mstmutation="1" _msthash="890904" _msttexthash="1232439">A backtick-delimited string in a code span: </font><code>foo</code></p>
+<hr>
+<h3 id="Images"><a href="#Images" class="headerlink" title="Images"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Images" title="Images"></a><font _mstmutation="1" _msthash="75101" _msttexthash="75101">Images</font></h3><p><font _mstmutation="1" _msthash="891332" _msttexthash="89284">HTML Tag: </font><code>&amp;lt;img /&amp;gt;</code></p>
+<p>Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference.</p>
+<h4 id="Inline"><a href="#Inline" class="headerlink" title="Inline"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-1" title="Inline"></a><font _mstmutation="1" _msthash="92378" _msttexthash="75855">Inline</font></h4><p><font _mstmutation="1" _msthash="890319" _msttexthash="935519">Inline image syntax looks like this: </font><code>![Alt text](URL &quot;Title&quot;)</code></p>
+<p>Title is optional.</p>
+<p>Code:</p>
+<pre>`![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg "Optional title")
+`</pre>
+
+<p>预览：</p>
+<hr>
+<p><img src="/.com//wallpaper-878514.jpg" alt="替代文本"></p>
+<p><img src="/.com//cactus.png" alt="替代文本" title="Optional title"></p>
+<hr>
+<p>那是：</p>
+</li>
+<li><p>感叹号：！;</p>
+</li>
+<li><p>后跟一组方括号，包含图像的 alt 属性文本;</p>
+</li>
+<li><p>后跟一组括号，其中包含图像的 URL 或路径，以及用双引号或单引号括起来的可选 title 属性。</p>
+<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Reference-1" title="Reference"></a><font _mstmutation="1" _msthash="151580" _msttexthash="5359406">参考</font></h4><p><font _mstmutation="1" _msthash="890734" _msttexthash="74592349">引用样式的图像语法如下所示：</font><code>![Alt text][id]</code></p>
+<p>：</p>
+<pre>`[img id]: url/to/image  "Optional title attribute"
+![Alt text][img id]
+`</pre>
+
+<p>预览：</p>
+<hr>
+<p><img src="/.com//208px-Markdown-mark.svg.png" alt="替代文本" title="Optional title attribute"></p>
+<hr>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Strikethrough" title="Strikethrough"></a><font _mstmutation="1" _msthash="237159" _msttexthash="9713483">删除线</font></h3><p><font _mstmutation="1" _msthash="890578" _msttexthash="13352079">标签：</font><code>&amp;lt;del&amp;gt;</code></p>
+<p>这是一个扩展。</p>
+<p>GFM 向删除线文本添加语法。</p>
+<p><font _mstmutation="1" _msthash="891007" _msttexthash="12345177">code：</font></p>
+<figure class="highlight plain"><span class="btn-copy tooltipped tooltipped-sw" aria-label="复制到剪贴板！" _mstaria-label="29802604"></span><table><tbody><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">~~Mistaken text.~~</span>
+</pre></td></tr></tbody></table></figure>
+
+<p>预览：</p>
+<hr>
+<p><del _msthash="891579" _msttexthash="19821737">错误的文本。</del></p>
+<hr>
+<h2 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Miscellaneous" title="Miscellaneous"></a><font _mstmutation="1" _msthash="234221" _msttexthash="6464926">杂项</font></h2><h3 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Automatic-Links" title="Automatic Links"></a><font _mstmutation="1" _msthash="271934" _msttexthash="13005902">自动链接</font></h3><p>Markdown支持为URL和电子邮件地址创建”自动”链接的快捷方式样式：只需用尖括号将URL或电子邮件地址括起来即可。</p>
+<p>：</p>
+<pre>`&lt;http://example.com/&gt;
+
+&lt;address@example.com&gt;
+`</pre>
+
+<p>预览：</p>
+<hr>
+<p><a href="http://example.com/">http://example.com/</a></p>
+<p><a href="mailto:address@example.com">address@example.com</a></p>
+<hr>
+<p>GFM 将自动链接标准网址。</p>
+<p><font _mstmutation="1" _msthash="889656" _msttexthash="12345177">code：</font></p>
+<figure class="highlight plain"><span class="btn-copy tooltipped tooltipped-sw" aria-label="复制到剪贴板！" _mstaria-label="29802604"></span><table><tbody><tr><td class="gutter"><pre><span class="line">1</span>
+</pre></td><td class="code"><pre><span class="line">https://github.com/emn178/markdown</span>
+</pre></td></tr></tbody></table></figure>
+
+<p>Preview:</p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://github.com/emn178/markdown">https://github.com/emn178/markdown</a></p>
+<hr>
+<h3 id="Backslash-Escapes"><a href="#Backslash-Escapes" class="headerlink" title="Backslash Escapes"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Backslash-Escapes" title="Backslash Escapes"></a><font _mstmutation="1" _msthash="327522" _msttexthash="308958">Backslash Escapes</font></h3><p>Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax.</p>
+<p>Code:</p>
+<pre>`\*literal asterisks\*
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p><em>literal asterisks</em></p>
+<hr>
+<p>Markdown provides backslash escapes for the following characters:</p>
+<p>Code:</p>
+<pre>`\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+`</pre>
+
+<h2 id="Inline-HTML"><a href="#Inline-HTML" class="headerlink" title="Inline HTML"></a><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-HTML" title="Inline HTML"></a><font _mstmutation="1" _msthash="145756" _msttexthash="134134">Inline HTML</font></h2><p>For any markup that is not covered by Markdown’s syntax, you simply use HTML itself. There’s no need to preface it or delimit it to indicate that you’re switching from Markdown to HTML; you just use the tags.</p>
+<p>Code:</p>
+<pre>`This is a regular paragraph.
+
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Foo&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+This is another regular paragraph.
+`</pre>
+
+<p>Preview:</p>
+<hr>
+<p>This is a regular paragraph.</p>
+<table><tbody><tr><td _msthash="2167815" _msttexthash="30901">Foo</td></tr></tbody></table>
+
+<p>This is another regular paragraph.</p>
+<hr>
+<p>Note that Markdown formatting syntax is <strong>not processed within block-level HTML tags</strong>.</p>
+<p>Unlike block-level HTML tags, Markdown syntax is <strong>processed within span-level tags</strong>.</p>
+<p>Code:</p>
+<pre>`&lt;span&gt;**Work**&lt;/span&gt;
+
+&lt;div&gt;
+    **No Work**
+&lt;/div&gt;</pre></li>
+</ul>
+<p>Preview:</p>
+<hr>
+<p><span><strong>Work</strong></span></p>
+<div>
+  **No Work**
+</div>
+* * *
+
+  </div>
+
+
+<pre><code>      &lt;div id=&quot;footer-post-container&quot; _msthidden=&quot;74&quot;&gt;
+</code></pre>
+  <div id="footer-post" _msthidden="74" style="display: none;">
+
+<pre><code>&lt;div id=&quot;nav-footer&quot; style=&quot;display: none&quot; _msthidden=&quot;4&quot;&gt;
+</code></pre>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/">Home</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/about/">About</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/archives/">Writing</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/projects_url">Projects</a></li></ul></div>
+
+<div id="toc-footer" style="display: none" _msthidden="66">
+
+<ol>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Block-Elements"><span class="toc-number" _msthash="804557" _msttexthash="9243" _msthidden="1">1.</span> <span class="toc-text" _msthash="533897" _msttexthash="227916" _msthidden="1">Block Elements</span></a></p>
+<pre><code>1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1277367&quot; _msttexthash=&quot;20956&quot; _msthidden=&quot;1&quot;&gt;1.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;933179&quot; _msttexthash=&quot;546897&quot; _msthidden=&quot;1&quot;&gt;Paragraphs and Line Breaks&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs-and-Line-Breaks)
+
+        1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855217&quot; _msttexthash=&quot;35139&quot; _msthidden=&quot;1&quot;&gt;1.1.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437501&quot; _msttexthash=&quot;156806&quot; _msthidden=&quot;1&quot;&gt;Paragraphs&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs)
+2.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855218&quot; _msttexthash=&quot;35282&quot; _msthidden=&quot;1&quot;&gt;1.1.2.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437502&quot; _msttexthash=&quot;150566&quot; _msthidden=&quot;1&quot;&gt;Line Breaks&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Line-Breaks)
+</code></pre>
+<ol start="2">
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Headers"><span class="toc-number" _msthash="1277368" _msttexthash="21073" _msthidden="1">1.2.</span> <span class="toc-text" _msthash="933180" _msttexthash="93067" _msthidden="1">Headers</span></a></p>
+<pre><code>    1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855219&quot; _msttexthash=&quot;35256&quot; _msthidden=&quot;1&quot;&gt;1.2.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437503&quot; _msttexthash=&quot;80015&quot; _msthidden=&quot;1&quot;&gt;Setext&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Setext)
+</code></pre>
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#atx"><span class="toc-number" _msthash="1855220" _msttexthash="35399" _msthidden="1">1.2.2.</span> <span class="toc-text" _msthash="1437504" _msttexthash="34931" _msthidden="1">atx</span></a></li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquotes"><span class="toc-number" _msthash="1277369" _msttexthash="21190" _msthidden="1">1.3.</span> <span class="toc-text" _msthash="933181" _msttexthash="185042" _msthidden="1">Blockquotes</span></a></p>
+</li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Lists"><span class="toc-number" _msthash="1277370" _msttexthash="21307" _msthidden="1">1.4.</span> <span class="toc-text" _msthash="933182" _msttexthash="62816" _msthidden="1">Lists</span></a></p>
+<pre><code>        1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855221&quot; _msttexthash=&quot;35490&quot; _msthidden=&quot;1&quot;&gt;1.4.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437505&quot; _msttexthash=&quot;134186&quot; _msthidden=&quot;1&quot;&gt;Unordered&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Unordered)
+2.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855222&quot; _msttexthash=&quot;35633&quot; _msthidden=&quot;1&quot;&gt;1.4.2.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437506&quot; _msttexthash=&quot;92833&quot; _msthidden=&quot;1&quot;&gt;Ordered&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Ordered)
+</code></pre>
+<ol start="3">
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Indented"><span class="toc-number" _msthash="1855223" _msttexthash="35776" _msthidden="1">1.4.3.</span> <span class="toc-text" _msthash="1437507" _msttexthash="112008" _msthidden="1">Indented</span></a></p>
+<pre><code>            1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;2538107&quot; _msttexthash=&quot;52429&quot; _msthidden=&quot;1&quot;&gt;1.4.3.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;2046863&quot; _msttexthash=&quot;159627&quot; _msthidden=&quot;1&quot;&gt;Blockquote&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquote)
+2.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;2538108&quot; _msttexthash=&quot;52598&quot; _msthidden=&quot;1&quot;&gt;1.4.3.2.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;2046864&quot; _msttexthash=&quot;126399&quot; _msthidden=&quot;1&quot;&gt;Code Block&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Block)
+3.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;2538109&quot; _msttexthash=&quot;52767&quot; _msthidden=&quot;1&quot;&gt;1.4.3.3.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;2046865&quot; _msttexthash=&quot;154687&quot; _msthidden=&quot;1&quot;&gt;Nested List&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Nested-List)
+</code></pre>
+</li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Blocks"><span class="toc-number" _msthash="1277371" _msttexthash="21424" _msthidden="1">1.5.</span> <span class="toc-text" _msthash="933183" _msttexthash="150319" _msthidden="1">Code Blocks</span></a></p>
+<pre><code>        1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855224&quot; _msttexthash=&quot;35607&quot; _msthidden=&quot;1&quot;&gt;1.5.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437508&quot; _msttexthash=&quot;299806&quot; _msthidden=&quot;1&quot;&gt;Fenced Code Blocks&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Fenced-Code-Blocks)
+</code></pre>
+<ol start="6">
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Horizontal-Rules"><span class="toc-number" _msthash="1277372" _msttexthash="21541" _msthidden="1">1.6.</span> <span class="toc-text" _msthash="933184" _msttexthash="290758" _msthidden="1">Horizontal Rules</span></a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Table"><span class="toc-number" _msthash="1277373" _msttexthash="21658" _msthidden="1">1.7.</span> <span class="toc-text" _msthash="933185" _msttexthash="57681" _msthidden="1">Table</span></a></li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Span-Elements"><span class="toc-number" _msthash="804558" _msttexthash="9334" _msthidden="1">2.</span> <span class="toc-text" _msthash="533898" _msttexthash="203593" _msthidden="1">Span Elements</span></a></p>
+<pre><code>1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1277374&quot; _msttexthash=&quot;21047&quot; _msthidden=&quot;1&quot;&gt;2.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;933186&quot; _msttexthash=&quot;61061&quot; _msthidden=&quot;1&quot;&gt;Links&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Links)
+
+        1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855225&quot; _msttexthash=&quot;35230&quot; _msthidden=&quot;1&quot;&gt;2.1.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437509&quot; _msttexthash=&quot;75855&quot; _msthidden=&quot;1&quot;&gt;Inline&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline)
+2.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855226&quot; _msttexthash=&quot;35373&quot; _msthidden=&quot;1&quot;&gt;2.1.2.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437510&quot; _msttexthash=&quot;131391&quot; _msthidden=&quot;1&quot;&gt;Reference&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Reference)
+</code></pre>
+<ol start="2">
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Emphasis"><span class="toc-number" _msthash="1277375" _msttexthash="21164" _msthidden="1">2.2.</span> <span class="toc-text" _msthash="933187" _msttexthash="114725" _msthidden="1">Emphasis</span></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code"><span class="toc-number" _msthash="1277376" _msttexthash="21281" _msthidden="1">2.3.</span> <span class="toc-text" _msthash="933188" _msttexthash="42471" _msthidden="1">Code</span></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Images"><span class="toc-number" _msthash="1277377" _msttexthash="21398" _msthidden="1">2.4.</span> <span class="toc-text" _msthash="933189" _msttexthash="75101" _msthidden="1">Images</span></a></p>
+<pre><code>    1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1855227&quot; _msttexthash=&quot;35581&quot; _msthidden=&quot;1&quot;&gt;2.4.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;1437511&quot; _msttexthash=&quot;75855&quot; _msthidden=&quot;1&quot;&gt;Inline&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-1)
+</code></pre>
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Reference-1"><span class="toc-number" _msthash="1855228" _msttexthash="35724" _msthidden="1">2.4.2.</span> <span class="toc-text" _msthash="1437512" _msttexthash="131391" _msthidden="1">Reference</span></a></li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Strikethrough"><span class="toc-number" _msthash="1277378" _msttexthash="21515" _msthidden="1">2.5.</span> <span class="toc-text" _msthash="933190" _msttexthash="237159" _msthidden="1">Strikethrough</span></a></p>
+</li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Miscellaneous"><span class="toc-number" _msthash="804559" _msttexthash="9425" _msthidden="1">3.</span> <span class="toc-text" _msthash="533899" _msttexthash="234221" _msthidden="1">Miscellaneous</span></a></p>
+<pre><code>1.  [&lt;span class=&quot;toc-number&quot; _msthash=&quot;1277379&quot; _msttexthash=&quot;21138&quot; _msthidden=&quot;1&quot;&gt;3.1.&lt;/span&gt; &lt;span class=&quot;toc-text&quot; _msthash=&quot;933191&quot; _msttexthash=&quot;255905&quot; _msthidden=&quot;1&quot;&gt;Automatic Links&lt;/span&gt;](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Automatic-Links)
+</code></pre>
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Backslash-Escapes"><span class="toc-number" _msthash="1277380" _msttexthash="21255" _msthidden="1">3.2.</span> <span class="toc-text" _msthash="933192" _msttexthash="308958" _msthidden="1">Backslash Escapes</span></a></li>
+</ol>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-HTML"><span class="toc-number" _msthash="804560" _msttexthash="9516" _msthidden="1">4.</span> <span class="toc-text" _msthash="533900" _msttexthash="134134" _msthidden="1">Inline HTML</span></a></p>
+</li></ol></div>
+
+<div id="share-footer" style="display: none">
+
+<ul>
+<li><p><a target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://twitter.com/share?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;text=An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;title=An%20overview%20of%20all%20Markdown%20elements" title="An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;is_video=false&amp;description=An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a href="mailto:?subject=An%20overview%20of%20all%20Markdown%20elements&amp;body=Check%20out%20this%20article:%20http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;title=An%20overview%20of%20all%20Markdown%20elements" title="An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;title=An%20overview%20of%20all%20Markdown%20elements" title="An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;title=An%20overview%20of%20all%20Markdown%20elements" title="An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://digg.com/submit?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;title=An%20overview%20of%20all%20Markdown%20elements" title="An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;name=An%20overview%20of%20all%20Markdown%20elements&amp;description=%3Cp%3EThis%20post%20gives%20an%20overview%20of%20all%20Markdown%20elements%20and%20how%20they%20are%20rendered%20by%20this%20theme.%3Cbr%3E"></a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://probbechts.github.io/2016/11/01/An-overview-of-all-Markdown-elements/&amp;t=An%20overview%20of%20all%20Markdown%20elements"></a></p>
+</li></ul></div>
+
+<div id="actions-footer" _msthidden="4">
+    [<font _mstmutation="1" _msthash="48503" _msttexthash="45591" _msthidden="1"> Menu</font>](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#)
+    [<font _mstmutation="1" _msthash="33683" _msttexthash="23699" _msthidden="1"> TOC</font>](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#)
+    [<font _mstmutation="1" _msthash="61893" _msttexthash="58981" _msthidden="1"> Share</font>](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#)
+    [<font _mstmutation="1" _msthash="35204" _msttexthash="32292" _msthidden="1"> Top</font>](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#)
+</div>
+
+  
+
+
+<pre><code>    &lt;footer id=&quot;footer&quot;&gt;
+</code></pre>
+  <div class="footer-left" _msthash="193713" _msttexthash="888576">
+    Copyright © 2019 Pieter Robberechts
+  </div>
+  <div class="footer-right">
+    <nav>
+
+<ul>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/">Home</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/about/">About</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/archives/">Writing</a></li>
+<li><a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/projects_url">Projects</a></li></ul></nav>
+  </div>
+
+
+
+<!-- styles -->
+
+<link rel="stylesheet" href="./所有Markdown元素的概述_files/all.min.css">
+<link rel="stylesheet" href="./所有Markdown元素的概述_files/justifiedGallery.min.css">
+
+<pre><code>&lt;!-- jquery --&gt;
+</code></pre>
+<script src="./所有Markdown元素的概述_files/jquery.min.js.下载"></script>
+<script src="./所有Markdown元素的概述_files/jquery.justifiedGallery.min.js.下载"></script>
+<!-- clipboard -->
+
+  <script src="./所有Markdown元素的概述_files/clipboard.min.js.下载"></script>
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+<script src="./所有Markdown元素的概述_files/main.js.下载"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/projects_url">项目</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%89%80%E6%9C%89Markdown%E5%85%83%E7%B4%A0%E7%9A%84%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">所有Markdown元素的概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9D%97%E5%85%83%E7%B4%A0"><span class="toc-number">1.1.</span> <span class="toc-text">块元素</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD%E5%92%8C%E6%8D%A2%E8%A1%8C%E7%AC%A6"><span class="toc-number">1.1.1.</span> <span class="toc-text">段落和换行符</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">段落</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Ordered"><span class="toc-number">1.1.1.2.</span> <span class="toc-text">Ordered</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Indented"><span class="toc-number">1.1.1.3.</span> <span class="toc-text">Indented</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Blockquote"><span class="toc-number">1.1.1.3.1.</span> <span class="toc-text">Blockquote</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Nested-List"><span class="toc-number">1.1.1.3.2.</span> <span class="toc-text">Nested List</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code-Blocks"><span class="toc-number">1.1.2.</span> <span class="toc-text">Code Blocks</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Horizontal-Rules"><span class="toc-number">1.1.3.</span> <span class="toc-text">Horizontal Rules</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Table"><span class="toc-number">1.1.4.</span> <span class="toc-text">Table</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Emphasis"><span class="toc-number">1.1.5.</span> <span class="toc-text">Emphasis</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code"><span class="toc-number">1.1.6.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Images"><span class="toc-number">1.1.7.</span> <span class="toc-text">Images</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Inline"><span class="toc-number">1.1.7.1.</span> <span class="toc-text">Inline</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">1.1.7.2.</span> <span class="toc-text">参考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E7%BA%BF"><span class="toc-number">1.1.8.</span> <span class="toc-text">删除线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%82%E9%A1%B9"><span class="toc-number">1.2.</span> <span class="toc-text">杂项</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5"><span class="toc-number">1.2.1.</span> <span class="toc-text">自动链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Backslash-Escapes"><span class="toc-number">1.2.2.</span> <span class="toc-text">Backslash Escapes</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inline-HTML"><span class="toc-number">1.3.</span> <span class="toc-text">Inline HTML</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&text=Markdown概述"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&is_video=false&description=Markdown概述"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Markdown概述&body=Check out this article: http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&title=Markdown概述"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&name=Markdown概述&description=&lt;p&gt;&lt;img src=&#34;/.com//Users\Administrator\Desktop\hexo\source_posts\208px-Markdown-mark.svg.png&#34; alt=&#34;208px-Markdown-mark.svg&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;所有Markdown元素的概述&#34;&gt;&lt;a href=&#34;#所有Markdown元素的概述&#34; class=&#34;headerlink&#34; title=&#34;所有Markdown元素的概述&#34;&gt;&lt;/a&gt;所有Markdown元素的概述&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;meta&amp;quot;&amp;gt;
+  &amp;lt;font _mstmutation=&amp;quot;1&amp;quot; _msthash=&amp;quot;1051700&amp;quot; _msttexthash=&amp;quot;10753938&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;author&amp;quot; itemprop=&amp;quot;author&amp;quot; itemscope=&amp;quot;&amp;quot; itemtype=&amp;quot;http://schema.org/Person&amp;quot; _mstmutation=&amp;quot;1&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt; &amp;lt;span itemprop=&amp;quot;name&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt;仙人掌灯&amp;lt;/span&amp;gt; &amp;lt;/span&amp;gt; &amp;lt;div class=&amp;quot;postdate&amp;quot; _mstmutation=&amp;quot;1&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt; &amp;lt;time datetime=&amp;quot;2016-11-01T08:35:18.000Z&amp;quot; itemprop=&amp;quot;datePublished&amp;quot; _istranslated=&amp;quot;1&amp;quot;&amp;gt;2016-11-01&amp;lt;/time&amp;gt; &amp;lt;/div&amp;gt;&amp;lt;/font&amp;gt;
+
+&amp;lt;div class=&amp;quot;article-tag&amp;quot;&amp;gt;
+
+    [降价](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/tags/markdown/)
+&amp;lt;/div&amp;gt;
+
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  
+
+  &lt;div class=&#34;content&#34; itemprop=&#34;articleBody&#34;&gt;
+
+&lt;p&gt;&lt;font _mstmutation=&#34;1&#34; _msthash=&#34;809146&#34; _msttexthash=&#34;180487411&#34;&gt;这篇文章概述了所有Markdown元素以及这个主题如何呈现它们。&lt;/font&gt;&lt;br&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Block-Elements&#34;&gt;块元素&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*   [段落和换行符](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Paragraphs-and-Line-Breaks)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Headers&#34;&gt;header标签&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Blockquotes&#34;&gt;块引用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Lists&#34;&gt;列表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code-Blocks&#34;&gt;代码块&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Horizontal-Rules&#34;&gt;水平规则&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Table&#34;&gt;表格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Span-Elements&#34;&gt;跨度元素&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*   [链接](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Links)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Emphasis&#34;&gt;强调&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Code&#34;&gt;代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Images&#34;&gt;图像&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Strikethrough&#34;&gt;删除线&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Miscellaneous&#34;&gt;杂项&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*   [自动链接](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Automatic-Links)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Backslash-Escapes&#34;&gt;反斜杠转义&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/2016/11/01/An-overview-of-all-Markdown-elements/#Inline-Html&#34;&gt;内联 HTML&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/Markdown/cl3zl57v6000f9gto392cgzn4/&t=Markdown概述"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    YF.Chen
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/projects_url">项目</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
